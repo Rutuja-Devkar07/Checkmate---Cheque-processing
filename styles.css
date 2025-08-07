@@ -1,0 +1,228 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+/* Style the sidebar */
+[data-testid="stSidebar"] {
+    background-color: #3B1C32 !important;
+    /* Dark blue sidebar */
+}
+
+[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+div[data-baseweb="radio"] label {
+    color: white !important;
+}
+
+/* Style icons to be black */
+.sidebar-icon {
+    color: black !important; 
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Apply White Text to All Paragraphs */
+.white-text {
+    font-family: 'Crimson Text', serif !important;
+    font-size: 18px;
+    text-align: center;
+    color: black !important;
+    margin: 10px 20px;
+    line-height: 1.6;
+    /* Improve readability */
+}
+
+/* Make text_area and file_uploader labels white */
+.custom-label {
+    color: black !important;
+    font-size: 16px !important;
+    font-family: 'Crimson Text', serif !important;
+}
+
+/*  Make input fields (text_area, file_uploader, text_input) white */
+.custom-input {
+    color: black !important;
+    background-color: #3B1C32 !important;
+    /* Dark background */
+    border: 1px solid #ff6600 !important;
+    /* Orange border */
+    font-family: 'Crimson Text', serif !important;
+}
+
+/*  Make uploaded image text white */
+.uploaded-image-text {
+    color: black !important;
+    font-size: 16px !important;
+    font-family: 'Crimson Text', serif !important;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*  Style the "Why Choose ChequeMate?" heading */
+.why-choose-title {
+    color: burlywood !important;
+    font-size: 24px !important;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* 🌑 Center the bullet points properly */
+.centered-list {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+   
+    /* Align text properly */
+}
+
+.centered-list ul {
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Crimson Text', serif !important;
+    list-style-type: disc;
+    /* Ensures proper bullet points */
+    padding-left: 20px;
+    /* Aligns bullet points correctly */
+    max-width: 300px;
+    /* Prevents stretching */
+}
+
+/* Style the welcome text */
+.custom-title {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 36px !important;
+    text-align: center;
+    color: #ff6600 !important;
+    /* Orange color */
+    margin-top: 20px;
+}
+
+.custom-title {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 40px;
+    text-align: center;
+    color: black !important;
+    /* Orange color */
+    margin-top: 20px;
+}
+
+/* Apply Crimson Text font to paragraph text */
+.home-text {
+    font-family: 'Crimson Text', serif !important;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    /* Darker text for readability */
+    margin: 10px 20px;
+}
+
+/* Improve main content layout */
+.stApp {
+    background-color: white;
+    /* Light grey background */
+    padding: 20px;
+}
+
+/* Style buttons */
+/* Center buttons properly */
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*Style the buttons */
+button {
+    background-color: #D9A299 !important;
+    color: black !important;
+    font-size: 18px !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/*  Add hover effect */
+button:hover {
+    background-color: #e65c00 !important;
+    transform: scale(1.05);
+}
+
+
+/* Style data tables */
+[data-testid="stDataFrameContainer"] {
+    background-color: white !important;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Style Streamlit text input fields */
+textarea,
+input {
+    border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+}
+
+/* Apply White Text to All Paragraphs */
+.white-text {
+    font-family: 'Crimson Text', serif !important;
+    font-size: 18px;
+    text-align: center;
+    color: black !important;
+    margin: 10px 20px;
+    line-height: 1.6;
+    /* Improve readability */
+}
+
+/*  Style the key metrics */
+.metric-text {
+    font-size: 24px !important;
+    font-weight: bold;
+    text-align: center;
+    color: #ffcc00 !important;
+    /* Yellow color for visibility */
+}
+
+/* Style the Streamlit dataframe container */
+[data-testid="stDataFrameContainer"] {
+    background-color:black !important;
+    /* Dark background */
+    border-radius: 10px !important;
+    padding: 10px;
+}
+
+.stDataFrame div {
+    color: black !important;
+/* color: black !important; */
+    font-size: 16px !important;
+}
+
+.stTextInput>div>div>input {
+    background-color: whitesmoke !important;
+    color: black !important;
+    border-radius: 5px;
+    padding: 8px;
+}
+.stTextInput>label {
+    color: black !important;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+.purple-text {
+    color: #8e44ad !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Hide Streamlit menu */
+#MainMenu {
+    visibility: hidden;
+}
+
